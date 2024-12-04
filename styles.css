@@ -40,6 +40,7 @@ main {
     display: flex;
     justify-content: space-between;
     padding: 1em;
+    
 }
 
 
@@ -47,42 +48,53 @@ main {
     flex: 3;
     background-color: #ffffff;
     padding: 1em;
-    border: 1px solid #460404;
+    border: 1px solid #681a1a;
     border-radius: 8px;
+    
 }
 
 article {
     margin-bottom: 1.5em;
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    
 }
 
 article h2 {
     font-size: 1.5em;
-    color: #600c30;
+    color: #80435d;
+    margin-left: 1em;
 }
 
+
 article h3 {
+    margin-left: 1em;
     font-size: 1.2em;
     color: #a02259;
     margin-top: 1em;
 }
 
+article p{
+    margin-left: 1em;
+}
 article img {
     max-width: 100%;
     margin: 0.5em 0;
+    margin-left: 1em;
 }
 
 article .caption {
     font-size: 0.9em;
     color: #b05050;
     margin-bottom: 0.5em;
+    margin-left: 1em;
 }
 
 article .comments {
     font-size: 0.9em;
     text-align: right;
     color: #a74343;
+    margin-right: 1em;
 }
 aside {
     flex: 1;
@@ -145,13 +157,12 @@ footer a {
 .imagen-articulo{
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
-
 }
 nav{
     background-color: #dfd1d1;
     padding: 2px;
 }
-li{
+li {
     display:inline;
     margin-right: 15px;    
 }
