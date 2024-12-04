@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<noticias>
+    <canal>
+        <titulo>Noticias del Día</titulo>
+        <enlace>https://www.ejemplo.com/noticias</enlace>
+        <descripcion>Las últimas noticias del mundo.</descripcion>
+        <idioma>es</idioma>
+        <fechaPublicacion>2024-12-04</fechaPublicacion>
+        
+        <articulo>
+            <titulo>Innovaciones Tecnológicas en 2024</titulo>
+            <enlace>https://www.ejemplo.com/noticias/tecnologia2024</enlace>
+            <descripcion>
+                Explora los avances tecnológicos más destacados de este año.
+            </descripcion>
+            <fechaPublicacion>2024-12-03</fechaPublicacion>
+            <categoria>Tecnología</categoria>
+        </articulo>
+        
+        <articulo>
+            <titulo>El Impacto del Cambio Climático</titulo>
+            <enlace>https://www.ejemplo.com/noticias/cambio-climatico</enlace>
+            <descripcion>
+                Un análisis de cómo el cambio climático afecta a las economías globales.
+            </descripcion>
+            <fechaPublicacion>2024-12-02</fechaPublicacion>
+            <categoria>Medio Ambiente</categoria>
+        </articulo>
+        
+        <articulo>
+            <titulo>Resultados del Fútbol Internacional</titulo>
+            <enlace>https://www.ejemplo.com/noticias/futbol2024</enlace>
+            <descripcion>
+                Consulta los resultados más recientes de las competiciones internacionales.
+            </descripcion>
+            <fechaPublicacion>2024-12-01</fechaPublicacion>
+            <categoria>Deportes</categoria>
+        </articulo>
+    </canal>
+</noticias>
+

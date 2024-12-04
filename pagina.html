@@ -3,48 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Título del sitio web</title>
+    <title>Diario de Sevilla</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     
     <header>
-        <h1>Título del sitio web</h1>
-        <nav>
-            <a href="CPE1_seccion_1.html">Sección 1</a>
-            <a href="CPE1_seccion_2.html">Sección 2</a>
-            <a href="CPE1_contacto.html">Contacto</a>
-        </nav>
+        <div class="logo-container">
+            <img src="data:image/jpeg;base64,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" class="logo">
+        </div>
+        <h1>Diario de Sevilla</h1>
+        <section class="secciones">
+            <nav>
+                <ul>
+                    <li><a href="CPE1_seccion_1.html">Educación</a></li>
+                    <li><a href="CPE1_seccion_2.html">Medio Ambiente</a></li>
+                    <li><a href="CPE1_contacto.html">Contacto</a> </li>  
+                </ul>
+            </nav>
+        </section>
     </header>
 
     
     <main>
         <section class="main-content">
             <article>
-                <h2>Contenido principal</h2>
-                <h3>Noticia sobre los incendios forestales</h3>
-                <p>Controlado un incendio forestal en el parque natural de Serra Gelada en Benidorm ...</p>
-                <img src="https://via.placeholder.com/200x150" alt="Imagen de un incendio">
-                <p class="caption">Imagen de un incendio</p>
-                <p class="comments">comentarios (1)</p>
+                <h2>Últimas Noticias</h2>
+                <h3> Nandi-Ndaitwah se convierte en la primera presidenta de Namibia con el 57% de los votos</h3>
+                <p>La vicepresidenta de Namibia, Netumbo Nandi-Ndaitwah, ha ganado las elecciones...</p>
+                <img class="imagen-articulo" src="https://img2.rtve.es/i/?w=1600&i=01733268933473.jpg" alt="Imagen de vicepresidenta Namibia" width="400" height="250">
+                <p class="caption">Imagen de vicepresidenta Namibia</p>
+                <p class="comments">Comentarios (1)</p>
             </article>
             <article>
-                <h3>Historia de los vuelos espaciales</h3>
-                <p>Los vuelos espaciales pasaron a formar parte de los logros de la humanidad en el siglo XX, después de los avances teóricos y prácticos ...</p>
-                <img src="https://via.placeholder.com/200x150" alt="Imagen de un viaje espacial">
-                <p class="caption">Imagen de un viaje espacial</p>
-                <p class="comments">comentarios (0)</p>
+                <h3>Padres de alumnos se manifiestan en Coimbra contra los libros de texto digitales</h3>
+                <p>Los padres de alumnos del colegio Martim de Freitas de Coimbra se manifestaron el lunes contra el uso de libros de texto digitales...</p>
+                <img class="imagen-articulo" src="https://rtve.pilot.ebu.io/api/resizer?url=https%3A%2F%2Fcdn-images.rtp.pt%2Ficm%2Fimages%2Fa3%2Fa3101d897caaaf0574fffa10a0081162_N.jpg&width=400&height=225" alt="Imagen de padres manifestánsose" width="400" height="250">
+                <p class="caption">Imagen de padres manifestándose</p>
+                <p class="comments">Comentarios (0)</p>
             </article>
         </section>
 
         
         <aside>
-            <div class="ad-zone">
-                <h3>Zona de publicidad</h3>
-                <img src="https://via.placeholder.com/300x150" alt="Anuncio publicitario">
+            <div class="ad-zona">
+                <h3>Publicidad</h3>
+                <img class="imagen-publicidad" src="https://agremia.com/wp-content/uploads/2021/03/ANUNCIO-FACEBOOK-DEFINITIVO.jpg" alt="Anuncio publicitario" width="400" height="250">
             </div>
             <div class="downloads">
-                <h3>Zona de descargas</h3>
+                <h3>Contenido Descargable</h3>
                 <ul>
                     <li><a href="#">Artículo 1</a></li>
                     <li><a href="#">Artículo 2</a></li>
@@ -52,14 +59,14 @@
             </div>
             <div class="rss">
                 <h3>Zona de sindicación a nuestras noticias</h3>
-                <a href="#"><img src="https://via.placeholder.com/50x50" alt="Canal RSS"></a>
+                <li><a href="rss.xml">Canal RSS <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Feed-icon.svg/800px-Feed-icon.svg.png" alt="Canal RSS" width="20"></a></li>
             </div>
         </aside>
     </main>
 
     <footer>
-        <p>¡Sitio web en obras!</p>
-        <p><a href="#">Aviso Legal</a></p>
+        <p>¡Trabajamos en Mejoras!</p>
+        <li><a href="aviso.xml">Aviso Legal</a></p></li>
     </footer>
 </body>
 </html>

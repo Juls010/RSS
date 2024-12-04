@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<avisoLegal>
+    <titulo>Aviso Legal</titulo>
+    <introduccion>
+        <p>Este es el aviso legal para el uso de este sitio web.</p>
+    </introduccion>
+    <informacionResponsable>
+        <responsable>
+            <nombre>Nombre de la empresa o propietario</nombre>
+            <direccion>Calle Ficticia, 123, Ciudad, País</direccion>
+            <telefono>+123456789</telefono>
+            <email>contacto@empresa.com</email>
+        </responsable>
+    </informacionResponsable>
+    <propiedadIntelectual>
+        <p>Todo el contenido de este sitio web, incluyendo textos, imágenes, logotipos y gráficos, son propiedad de [nombre de la empresa] o de terceros que han autorizado su uso.</p>
+    </propiedadIntelectual>
+    <usoDelSitio>
+        <p>El usuario se compromete a utilizar el sitio web de acuerdo con la ley y no realizar actividades ilícitas o contrarias a la buena fe.</p>
+    </usoDelSitio>
+    <exclusionDeResponsabilidad>
+        <p>[Nombre de la empresa] no se hace responsable de los daños o perjuicios que pudieran derivarse del uso inadecuado de este sitio web.</p>
+    </exclusionDeResponsabilidad>
+    <modificaciones>
+        <p>[Nombre de la empresa] se reserva el derecho de modificar el contenido de este aviso legal en cualquier momento.</p>
+    </modificaciones>
+    <fecha>
+        <p>Última actualización: 4 de diciembre de 2024</p>
+    </fecha>
+</avisoLegal>
